@@ -1,0 +1,28 @@
+[server]
+  addr = "127.0.0.1"
+  port = 8083
+  env = "debug"
+  gracefulShutdownPeriod = 30
+
+[mysql]
+  host = "sh-cynosdbmysql-grp-rumlh4qa.sql.tencentcdb.com"
+  port = 23682
+  name =  "baby_daily"
+  user = "baby_daily"
+  pass = "BabyDaily@Liranxi0729"
+  maxIdleConn = 5
+  maxOpenConn = 20
+  connMaxLifeTime = 60
+  loggerLevel = "info"
+
+[redis]
+  addr = "127.0.0.1:6379"
+  db = 1
+  maxretries = 3
+  minidleconns = 5
+  pass = "Lranxi0729ReDis"
+  poolsize = 10
+
+[Wechat]
+  appid = 'wxd9d5afe9db4972c0'
+  secret = '41c4cef142a7e6385545712340ae0eba'
