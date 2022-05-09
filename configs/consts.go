@@ -2,7 +2,7 @@ package configs
 
 const (
 	// ProjectName 项目名称
-	ProjectName = "random-images"
+	ProjectName = "baby-daily-api"
 
 	// ProjectAccessLogFile 访问日志存放路径
 	ProjectAccessLogFile = "./logs/access.log"
